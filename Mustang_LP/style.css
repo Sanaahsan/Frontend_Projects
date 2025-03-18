@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-color:black;
+    height:100vh;
+    
+ }  
+.rectangle{
+    background:#0B0B45;
+    width: 95%;
+    height:90%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 32px;
+    box-shadow: 0 0 5px blue,
+                0 0 25px deepskyblue ,
+                0 0 50px violet,
+                0 0 100px darkblue;
+
+    
+ }
+
+ img{
+   display: block;
+   height: 100%;
+   width: auto;
+    /* position: absolute;
+    left: 614px; */
+    /* bottom: 50px; */
+    /* top: 1px; */
+    border-radius: 50% 32px 32px 50%;
+    margin-left: auto;
+    
+    /* object-fit: scale-down; */
+ }
+ 

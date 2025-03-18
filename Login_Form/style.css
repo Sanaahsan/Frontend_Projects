@@ -1,0 +1,111 @@
+
+     html
+    {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        font-family: 'Work Sans',sans-serif;
+    }
+    body{
+        background:url(back.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    section{
+        width:100%;
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    section aside{
+        border: 2px solid black;
+        width: 350px;
+        padding: 20px;
+        background:transparent;
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.5);
+    }
+    section aside h1{
+        font-size: 30px;
+        color: #363636;
+        text-align: center;
+    }
+    section aside h2{
+        font-size: 20px;
+        text-align: center;
+        margin: 10px 0;
+        color: #555;
+
+        font-weight: normal;
+    }
+    input[type=text],
+    input[type=password]{
+        /*width:calc(100% -20px);*/
+        width: 93%;
+        padding: 8px 10px;
+        font-size: 20px;
+        margin:8px auto;
+        color:#363636;
+        background-color:white;
+        border:#c9c9c9 solid 1px;
+        border-radius: 12px;
+        transition: 0.7s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      
+    }
+    input[type=text]:focus,
+    input[type=password]:focus{
+        transform: scale(1.1);
+    }
+    button[type=submit]{
+        /* margin-top: 40px ;
+        margin-left: 85px;
+        margin-bottom: 10px; */
+        margin: 40px 0 15px 85px;
+        /* trbl-top right bottom: left; */
+        width: 50%;
+        border: none;
+        color:white;
+        background-color: #f15e64;
+        padding: 8px 0;
+        font-size: 18px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: 0.2s all ease-in;
+       /* box-shadow: 0 0 5px #f15e64,
+        0 0 25px #f15e64;*/
+    }
+    button[type=submit]:hover{
+        background-color: #42f5ec;
+       box-shadow: 0 0 5px #42f5ec,
+       0 0 25px #42f5ec,0 0 50px #42f5ec,
+       0 0 100x #42f5ec, 0 0 200px #42f5ec;
+    }
+    section aside p
+    {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        color:#555;
+    }
+    section aside p a {
+        color:#f15e64;
+        text-decoration: underline;
+    }
+    section aside p a:hover{
+        text-decoration:none;
+    }
+    /*form input{
+        position: relative;
+        
+        left: 20%;
+
+    }
+
+
+    
+
+    
+
